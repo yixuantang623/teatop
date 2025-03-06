@@ -78,7 +78,7 @@ body, html {
   font-family: "Funnel Display";
   font-weight: 800;
   font-size: clamp(4rem, 18vw, 35rem);
-  margin-top: 25px;
+  margin-top: 20px;
   letter-spacing: 2px;
   position: absolute;
   left: 50%;
