@@ -18,8 +18,8 @@ document.querySelector('.L05Ename').addEventListener('animationend', (event) => 
       
       document.querySelector('.Ltop02').style.animation = 'slideIn 0.5s 1 linear 5.5s forwards , slideOut 0.5s 1 linear 10.5s forwards';
       document.querySelector('.Ltea02').style.animation = 'rotate01 1s 1 ease-out 5.5s forwards , rotate02 1s 1 ease-out 10.5s forwards';
-      document.querySelector('.Lleaf02').style.animation = 'drop 0.5s 1 ease-in 6.5s forwards , float04 1s infinite linear 7s , fadeOut 0.1s 1 linear 10.4s forwards';
-      document.querySelector('.Rleaf02').style.animation = 'drop 0.5s 1 ease-in 6.5s forwards , float03 1s infinite linear 7s , fadeOut 0.1s 1 linear 10.4s forwards';
+      document.querySelector('.Lleaf02').style.animation = 'drop 0.5s 1 ease-in 6.5s forwards , float03 1s infinite linear 7s , fadeOut 0.1s 1 linear 10.4s forwards';
+      document.querySelector('.Rleaf02').style.animation = 'drop 0.5s 1 ease-in 6.5s forwards , float04 1s infinite linear 7s , fadeOut 0.1s 1 linear 10.4s forwards';
       document.querySelector('.L02Cname').style.animation = 'fadeIn 0.3s 1 linear 7.2s forwards , fadeOut 0.3s 1 linear 10.2s forwards';
       document.querySelector('.L02Ename').style.animation = 'fadeIn 0.3s 1 linear 7.5s forwards , fadeOut 0.3s 1 linear 10.5s forwards';
     
@@ -41,8 +41,8 @@ document.querySelector('.L05Ename').addEventListener('animationend', (event) => 
       
        document.querySelector('.Ltop05').style.animation = 'slideIn 0.5s 1 linear 22s forwards , slideOut 0.5s 1 linear 27s forwards';
       document.querySelector('.Ltea05').style.animation = 'rotate01 1s 1 ease-out 22s forwards , rotate02 1s 1 ease-out 27s forwards';
-      document.querySelector('.Lleaf05').style.animation = 'drop 0.5s 1 ease-in 23s forwards , float04 1s infinite linear 23.5s , fadeOut 0.1s 1 linear 26.9s forwards';
-      document.querySelector('.Rleaf05').style.animation = 'drop 0.5s 1 ease-in 23s forwards , float03 1s infinite linear 23.5s , fadeOut 0.1s 1 linear 26.9s forwards';
+      document.querySelector('.Lleaf05').style.animation = 'drop 0.5s 1 ease-in 23s forwards , float03 1s infinite linear 23.5s , fadeOut 0.1s 1 linear 26.9s forwards';
+      document.querySelector('.Rleaf05').style.animation = 'drop 0.5s 1 ease-in 23s forwards , float04 1s infinite linear 23.5s , fadeOut 0.1s 1 linear 26.9s forwards';
       document.querySelector('.L05Cname').style.animation = 'fadeIn 0.3s 1 linear 23.7s forwards , fadeOut 0.3s 1 linear 26.7s forwards';
       document.querySelector('.L05Ename').style.animation = 'fadeIn 0.3s 1 linear 24s forwards , fadeOut 0.3s 1 linear 27s forwards';
       

@@ -557,13 +557,13 @@ body, html {
 }
 
 .Lleaf02 {
-  -webkit-animation: drop 0.5s 1 ease-in 6.5s forwards, float04 1s infinite linear 7s, fadeOut 0.1s 1 linear 10.4s forwards;
-          animation: drop 0.5s 1 ease-in 6.5s forwards, float04 1s infinite linear 7s, fadeOut 0.1s 1 linear 10.4s forwards;
+  -webkit-animation: drop 0.5s 1 ease-in 6.5s forwards, float03 1s infinite linear 7s, fadeOut 0.1s 1 linear 10.4s forwards;
+          animation: drop 0.5s 1 ease-in 6.5s forwards, float03 1s infinite linear 7s, fadeOut 0.1s 1 linear 10.4s forwards;
 }
 
 .Rleaf02 {
-  -webkit-animation: drop 0.5s 1 ease-in 6.5s forwards, float03 1s infinite linear 7s, fadeOut 0.1s 1 linear 10.4s forwards;
-          animation: drop 0.5s 1 ease-in 6.5s forwards, float03 1s infinite linear 7s, fadeOut 0.1s 1 linear 10.4s forwards;
+  -webkit-animation: drop 0.5s 1 ease-in 6.5s forwards, float04 1s infinite linear 7s, fadeOut 0.1s 1 linear 10.4s forwards;
+          animation: drop 0.5s 1 ease-in 6.5s forwards, float04 1s infinite linear 7s, fadeOut 0.1s 1 linear 10.4s forwards;
 }
 
 .L02Cname {
@@ -647,13 +647,13 @@ body, html {
 }
 
 .Lleaf05 {
-  -webkit-animation: drop 0.5s 1 ease-in 23s forwards, float04 1s infinite linear 23.5s, fadeOut 0.1s 1 linear 26.9s forwards;
-          animation: drop 0.5s 1 ease-in 23s forwards, float04 1s infinite linear 23.5s, fadeOut 0.1s 1 linear 26.9s forwards;
+  -webkit-animation: drop 0.5s 1 ease-in 23s forwards, float03 1s infinite linear 23.5s, fadeOut 0.1s 1 linear 26.9s forwards;
+          animation: drop 0.5s 1 ease-in 23s forwards, float03 1s infinite linear 23.5s, fadeOut 0.1s 1 linear 26.9s forwards;
 }
 
 .Rleaf05 {
-  -webkit-animation: drop 0.5s 1 ease-in 23s forwards, float03 1s infinite linear 23.5s, fadeOut 0.1s 1 linear 26.9s forwards;
-          animation: drop 0.5s 1 ease-in 23s forwards, float03 1s infinite linear 23.5s, fadeOut 0.1s 1 linear 26.9s forwards;
+  -webkit-animation: drop 0.5s 1 ease-in 23s forwards, float04 1s infinite linear 23.5s, fadeOut 0.1s 1 linear 26.9s forwards;
+          animation: drop 0.5s 1 ease-in 23s forwards, float04 1s infinite linear 23.5s, fadeOut 0.1s 1 linear 26.9s forwards;
 }
 
 .L05Cname {
