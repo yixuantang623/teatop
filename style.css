@@ -54,7 +54,9 @@ body, html {
   border-radius: 100%;
   position: absolute;
   left: -5vw;
-  top: 43%;
+  top: 41%;
+  -webkit-animation: float01 1s infinite linear 0s;
+          animation: float01 1s infinite linear 0s;
 }
 .L .Rcircle {
   background-color: #ec6f09;
@@ -64,6 +66,8 @@ body, html {
   position: absolute;
   left: 47vw;
   top: 55%;
+  -webkit-animation: float02 1s infinite linear 0s;
+          animation: float02 1s infinite linear 0s;
 }
 .L .Ltopimg img {
   position: absolute;
@@ -73,6 +77,12 @@ body, html {
   transform-origin: 50% calc(60% + 20vw);
   transform: translate(-50%, -50%);
 }
+.L .Ltopimg .Lleaf01, .L .Ltopimg .Rleaf01, .L .Ltopimg .Lleaf02, .L .Ltopimg .Rleaf02, .L .Ltopimg .Lleaf03, .L .Ltopimg .Rleaf03 {
+  top: -40%;
+}
+.L .Ltopimg .Ltea01, .L .Ltopimg .Ltea02, .L .Ltopimg .Ltea03 {
+  transform: translate(-50%, -50%) rotate(-160deg);
+}
 .L h1.Ltop {
   color: #ec6f09;
   font-family: "Funnel Display";
@@ -81,11 +91,12 @@ body, html {
   margin-top: 20px;
   letter-spacing: 2px;
   position: absolute;
-  left: 50%;
+  left: -100%;
   transform: translateX(-50%);
   margin-left: 0vw;
 }
 .L h3.LCname {
+  font-family: "Montserrat", "Noto Sans TC";
   margin-bottom: 0;
   letter-spacing: 3px;
   position: absolute;
@@ -96,6 +107,7 @@ body, html {
   font-size: clamp(0.7rem, 3.5vw, 3rem);
   font-weight: 600;
   white-space: nowrap;
+  opacity: 0;
 }
 .L p.LEname {
   position: absolute;
@@ -103,11 +115,16 @@ body, html {
   top: 92%;
   transform: translate(-50%, -50%);
   font-family: "Montserrat";
-  font-weight: 500;
+  font-weight: 600;
   color: #fff;
-  font-size: clamp(0.4rem, 1.6vw, 1rem);
+  font-size: clamp(0.4rem, 1.2vw, 1rem);
   white-space: nowrap;
   letter-spacing: 1px;
+  line-height: 1.2;
+  opacity: 0;
+}
+.L p.L03Ename {
+  top: 93%;
 }
 
 .R {
@@ -179,7 +196,7 @@ body, html {
 .R .Rrow .Name .RCname {
   font-family: "Montserrat", "Noto Sans TC";
   font-weight: 600;
-  margin-bottom: 2px;
+  margin-bottom: 3px;
   letter-spacing: 1.7px;
   font-size: clamp(0.5rem, 1.6vw, 1.5rem);
 }
@@ -315,24 +332,24 @@ body, html {
 }
 @-webkit-keyframes float01 {
   0% {
-    top: 43%;
+    top: 41%;
   }
   50% {
-    top: 44%;
+    top: 42%;
   }
   100% {
-    top: 43%;
+    top: 41%;
   }
 }
 @keyframes float01 {
   0% {
-    top: 43%;
+    top: 41%;
   }
   50% {
-    top: 44%;
+    top: 42%;
   }
   100% {
-    top: 43%;
+    top: 41%;
   }
 }
 @-webkit-keyframes float02 {
@@ -498,4 +515,247 @@ body, html {
   100% {
     top: 52%;
   }
+}
+.Ltop01 {
+  -webkit-animation: slideIn 0.5s 1 linear 0s forwards, slideOut 0.5s 1 linear 5s forwards;
+          animation: slideIn 0.5s 1 linear 0s forwards, slideOut 0.5s 1 linear 5s forwards;
+}
+
+.Ltea01 {
+  -webkit-animation: rotate01 1s 1 ease-out 0s forwards, rotate02 1s 1 ease-out 5s forwards;
+          animation: rotate01 1s 1 ease-out 0s forwards, rotate02 1s 1 ease-out 5s forwards;
+}
+
+.Lleaf01 {
+  -webkit-animation: drop 0.5s 1 ease-in 1s forwards, float04 1s infinite linear 1.5s, fadeOut 0.1s 1 linear 4.9s forwards;
+          animation: drop 0.5s 1 ease-in 1s forwards, float04 1s infinite linear 1.5s, fadeOut 0.1s 1 linear 4.9s forwards;
+}
+
+.Rleaf01 {
+  -webkit-animation: drop 0.5s 1 ease-in 1s forwards, float03 1s infinite linear 1.5s, fadeOut 0.1s 1 linear 4.9s forwards;
+          animation: drop 0.5s 1 ease-in 1s forwards, float03 1s infinite linear 1.5s, fadeOut 0.1s 1 linear 4.9s forwards;
+}
+
+.L01Cname {
+  -webkit-animation: fadeIn 0.3s 1 linear 1.7s forwards, fadeOut 0.3s 1 linear 4.7s forwards;
+          animation: fadeIn 0.3s 1 linear 1.7s forwards, fadeOut 0.3s 1 linear 4.7s forwards;
+}
+
+.L01Ename {
+  -webkit-animation: fadeIn 0.3s 1 linear 2s forwards, fadeOut 0.3s 1 linear 5s forwards;
+          animation: fadeIn 0.3s 1 linear 2s forwards, fadeOut 0.3s 1 linear 5s forwards;
+}
+
+.Ltop02 {
+  -webkit-animation: slideIn 0.5s 1 linear 5.5s forwards, slideOut 0.5s 1 linear 10.5s forwards;
+          animation: slideIn 0.5s 1 linear 5.5s forwards, slideOut 0.5s 1 linear 10.5s forwards;
+}
+
+.Ltea02 {
+  -webkit-animation: rotate01 1s 1 ease-out 5.5s forwards, rotate02 1s 1 ease-out 10.5s forwards;
+          animation: rotate01 1s 1 ease-out 5.5s forwards, rotate02 1s 1 ease-out 10.5s forwards;
+}
+
+.Lleaf02 {
+  -webkit-animation: drop 0.5s 1 ease-in 6.5s forwards, float04 1s infinite linear 7s, fadeOut 0.1s 1 linear 10.4s forwards;
+          animation: drop 0.5s 1 ease-in 6.5s forwards, float04 1s infinite linear 7s, fadeOut 0.1s 1 linear 10.4s forwards;
+}
+
+.Rleaf02 {
+  -webkit-animation: drop 0.5s 1 ease-in 6.5s forwards, float03 1s infinite linear 7s, fadeOut 0.1s 1 linear 10.4s forwards;
+          animation: drop 0.5s 1 ease-in 6.5s forwards, float03 1s infinite linear 7s, fadeOut 0.1s 1 linear 10.4s forwards;
+}
+
+.L02Cname {
+  -webkit-animation: fadeIn 0.3s 1 linear 7.2s forwards, fadeOut 0.3s 1 linear 10.2s forwards;
+          animation: fadeIn 0.3s 1 linear 7.2s forwards, fadeOut 0.3s 1 linear 10.2s forwards;
+}
+
+.L02Ename {
+  -webkit-animation: fadeIn 0.3s 1 linear 7.5s forwards, fadeOut 0.3s 1 linear 10.5s forwards;
+          animation: fadeIn 0.3s 1 linear 7.5s forwards, fadeOut 0.3s 1 linear 10.5s forwards;
+}
+
+.Ltop03 {
+  -webkit-animation: slideIn 0.5s 1 linear 11s forwards, slideOut 0.5s 1 linear 16s forwards;
+          animation: slideIn 0.5s 1 linear 11s forwards, slideOut 0.5s 1 linear 16s forwards;
+}
+
+.Ltea03 {
+  -webkit-animation: rotate01 1s 1 ease-out 11s forwards, rotate02 1s 1 ease-out 16s forwards;
+          animation: rotate01 1s 1 ease-out 11s forwards, rotate02 1s 1 ease-out 16s forwards;
+}
+
+.Lleaf03 {
+  -webkit-animation: drop 0.5s 1 ease-in 12s forwards, float04 1s infinite linear 12.5s, fadeOut 0.1s 1 linear 15.9s forwards;
+          animation: drop 0.5s 1 ease-in 12s forwards, float04 1s infinite linear 12.5s, fadeOut 0.1s 1 linear 15.9s forwards;
+}
+
+.Rleaf03 {
+  -webkit-animation: drop 0.5s 1 ease-in 12s forwards, float03 1s infinite linear 12.5s, fadeOut 0.1s 1 linear 15.9s forwards;
+          animation: drop 0.5s 1 ease-in 12s forwards, float03 1s infinite linear 12.5s, fadeOut 0.1s 1 linear 15.9s forwards;
+}
+
+.L03Cname {
+  -webkit-animation: fadeIn 0.3s 1 linear 12.7s forwards, fadeOut 0.3s 1 linear 15.7s forwards;
+          animation: fadeIn 0.3s 1 linear 12.7s forwards, fadeOut 0.3s 1 linear 15.7s forwards;
+}
+
+.L03Ename {
+  -webkit-animation: fadeIn 0.3s 1 linear 13s forwards, fadeOut 0.3s 1 linear 16s forwards;
+          animation: fadeIn 0.3s 1 linear 13s forwards, fadeOut 0.3s 1 linear 16s forwards;
+}
+
+@-webkit-keyframes bgcolorof {
+  0% {
+    background-color: #ec6f09;
+  }
+  100% {
+    background-color: #fff;
+  }
+}
+
+@keyframes bgcolorof {
+  0% {
+    background-color: #ec6f09;
+  }
+  100% {
+    background-color: #fff;
+  }
+}
+@-webkit-keyframes bgcolorlof {
+  0% {
+    background-color: #f08c3a;
+  }
+  100% {
+    background-color: #fff;
+  }
+}
+@keyframes bgcolorlof {
+  0% {
+    background-color: #f08c3a;
+  }
+  100% {
+    background-color: #fff;
+  }
+}
+@-webkit-keyframes bgcolorbo {
+  0% {
+    background-color: #0c2f54;
+  }
+  100% {
+    background-color: #ec6f09;
+  }
+}
+@keyframes bgcolorbo {
+  0% {
+    background-color: #0c2f54;
+  }
+  100% {
+    background-color: #ec6f09;
+  }
+}
+@-webkit-keyframes colorfo {
+  0% {
+    color: #fff;
+  }
+  100% {
+    color: #ec6f09;
+  }
+}
+@keyframes colorfo {
+  0% {
+    color: #fff;
+  }
+  100% {
+    color: #ec6f09;
+  }
+}
+@-webkit-keyframes colorbo {
+  0% {
+    color: #0c2f54;
+  }
+  100% {
+    color: #ec6f09;
+  }
+}
+@keyframes colorbo {
+  0% {
+    color: #0c2f54;
+  }
+  100% {
+    color: #ec6f09;
+  }
+}
+@-webkit-keyframes filtero {
+  0% {
+    filter: initial;
+  }
+  100% {
+    filter: hue-rotate(-180deg) saturate(140%) brightness(250%) contrast(120%);
+  }
+}
+@keyframes filtero {
+  0% {
+    filter: initial;
+  }
+  100% {
+    filter: hue-rotate(-180deg) saturate(140%) brightness(250%) contrast(120%);
+  }
+}
+.Rrow01 {
+  animation: bgcolorlof 0.1s linear 0.5s 1 forwards, bgcolorof 0.1s linear 5.3s 1 reverse forwards;
+}
+.Rrow01 .large {
+  animation: bgcolorbo 0.1s linear 0.5s 1 forwards, bgcolorbo 0.1s linear 5.3s 1 reverse forwards;
+}
+
+.Rrow02 {
+  animation: bgcolorlof 0.1s linear 6s 1 forwards, bgcolorlof 0.1s linear 10.8s 1 reverse forwards;
+}
+.Rrow02 .large {
+  animation: bgcolorbo 0.1s linear 6s 1 forwards, bgcolorbo 0.1s linear 10.8s 1 reverse forwards;
+}
+
+.Rrow03 {
+  animation: bgcolorof 0.1s linear 11.5s 1 forwards, bgcolorof 0.1s linear 16.3s 1 reverse forwards;
+}
+.Rrow03 .large {
+  animation: bgcolorbo 0.1s linear 11.5s 1 forwards, bgcolorbo 0.1s linear 16.3s 1 reverse forwards;
+}
+
+.R01no, .R01price {
+  animation: colorfo 0.1s linear 0.5s 1 forwards, colorfo 0.1s linear 5.3s 1 reverse forwards;
+}
+
+.R01moneysign {
+  animation: colorbo 0.1s linear 0.5s 1 forwards, colorbo 0.1s linear 5.3s 1 reverse forwards;
+}
+
+.R02no, .R02price {
+  animation: colorfo 0.1s linear 6s 1 forwards, colorfo 0.1s linear 10.8s 1 reverse forwards;
+}
+
+.R02moneysign {
+  animation: colorbo 0.1s linear 6s 1 forwards, colorbo 0.1s linear 10.8s 1 reverse forwards;
+}
+
+.R03no, .R03price {
+  animation: colorfo 0.1s linear 11.5s 1 forwards, colorfo 0.1s linear 16.3s 1 reverse forwards;
+}
+
+.R03moneysign {
+  animation: colorbo 0.1s linear 11.5s 1 forwards, colorbo 0.1s linear 16.3s 1 reverse forwards;
+}
+
+.R01Cname, .R01Ename {
+  animation: filtero 0.05s linear 0.5s 1 forwards, filtero 0.05s linear 5.3s 1 reverse forwards;
+}
+
+.R02Cname, .R02Ename {
+  animation: filtero 0.05s linear 6s 1 forwards, filtero 0.05s linear 10.8s 1 reverse forwards;
+}
+
+.R03Cname, .R03Ename {
+  animation: filtero 0.05s linear 11.5s 1 forwards, filtero 0.05s linear 16.3s 1 reverse forwards;
 }
