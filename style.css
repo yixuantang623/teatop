@@ -77,10 +77,10 @@ body, html {
   transform-origin: 50% calc(60% + 20vw);
   transform: translate(-50%, -50%);
 }
-.L .Ltopimg .Lleaf01, .L .Ltopimg .Rleaf01, .L .Ltopimg .Lleaf02, .L .Ltopimg .Rleaf02, .L .Ltopimg .Lleaf03, .L .Ltopimg .Rleaf03 {
+.L .Ltopimg .Lleaf01, .L .Ltopimg .Rleaf01, .L .Ltopimg .Lleaf02, .L .Ltopimg .Rleaf02, .L .Ltopimg .Lleaf03, .L .Ltopimg .Rleaf03, .L .Ltopimg .Lleaf04, .L .Ltopimg .Rleaf04, .L .Ltopimg .Lleaf05, .L .Ltopimg .Rleaf05 {
   top: -40%;
 }
-.L .Ltopimg .Ltea01, .L .Ltopimg .Ltea02, .L .Ltopimg .Ltea03 {
+.L .Ltopimg .Ltea01, .L .Ltopimg .Ltea02, .L .Ltopimg .Ltea03, .L .Ltopimg .Ltea04, .L .Ltopimg .Ltea05 {
   transform: translate(-50%, -50%) rotate(-160deg);
 }
 .L h1.Ltop {
@@ -606,6 +606,66 @@ body, html {
           animation: fadeIn 0.3s 1 linear 13s forwards, fadeOut 0.3s 1 linear 16s forwards;
 }
 
+.Ltop04 {
+  -webkit-animation: slideIn 0.5s 1 linear 16.5s forwards, slideOut 0.5s 1 linear 21.5s forwards;
+          animation: slideIn 0.5s 1 linear 16.5s forwards, slideOut 0.5s 1 linear 21.5s forwards;
+}
+
+.Ltea04 {
+  -webkit-animation: rotate01 1s 1 ease-out 16.5s forwards, rotate02 1s 1 ease-out 21.5s forwards;
+          animation: rotate01 1s 1 ease-out 16.5s forwards, rotate02 1s 1 ease-out 21.5s forwards;
+}
+
+.Lleaf04 {
+  -webkit-animation: drop 0.5s 1 ease-in 17.5s forwards, float04 1s infinite linear 18s, fadeOut 0.1s 1 linear 21.4s forwards;
+          animation: drop 0.5s 1 ease-in 17.5s forwards, float04 1s infinite linear 18s, fadeOut 0.1s 1 linear 21.4s forwards;
+}
+
+.Rleaf04 {
+  -webkit-animation: drop 0.5s 1 ease-in 17.5s forwards, float03 1s infinite linear 18s, fadeOut 0.1s 1 linear 21.4s forwards;
+          animation: drop 0.5s 1 ease-in 17.5s forwards, float03 1s infinite linear 18s, fadeOut 0.1s 1 linear 21.4s forwards;
+}
+
+.L04Cname {
+  -webkit-animation: fadeIn 0.3s 1 linear 18.2s forwards, fadeOut 0.3s 1 linear 21.2s forwards;
+          animation: fadeIn 0.3s 1 linear 18.2s forwards, fadeOut 0.3s 1 linear 21.2s forwards;
+}
+
+.L04Ename {
+  -webkit-animation: fadeIn 0.3s 1 linear 18.5s forwards, fadeOut 0.3s 1 linear 21.5s forwards;
+          animation: fadeIn 0.3s 1 linear 18.5s forwards, fadeOut 0.3s 1 linear 21.5s forwards;
+}
+
+.Ltop05 {
+  -webkit-animation: slideIn 0.5s 1 linear 22s forwards, slideOut 0.5s 1 linear 27s forwards;
+          animation: slideIn 0.5s 1 linear 22s forwards, slideOut 0.5s 1 linear 27s forwards;
+}
+
+.Ltea05 {
+  -webkit-animation: rotate01 1s 1 ease-out 22s forwards, rotate02 1s 1 ease-out 27s forwards;
+          animation: rotate01 1s 1 ease-out 22s forwards, rotate02 1s 1 ease-out 27s forwards;
+}
+
+.Lleaf05 {
+  -webkit-animation: drop 0.5s 1 ease-in 23s forwards, float04 1s infinite linear 23.5s, fadeOut 0.1s 1 linear 26.9s forwards;
+          animation: drop 0.5s 1 ease-in 23s forwards, float04 1s infinite linear 23.5s, fadeOut 0.1s 1 linear 26.9s forwards;
+}
+
+.Rleaf05 {
+  -webkit-animation: drop 0.5s 1 ease-in 23s forwards, float03 1s infinite linear 23.5s, fadeOut 0.1s 1 linear 26.9s forwards;
+          animation: drop 0.5s 1 ease-in 23s forwards, float03 1s infinite linear 23.5s, fadeOut 0.1s 1 linear 26.9s forwards;
+}
+
+.L05Cname {
+  -webkit-animation: fadeIn 0.3s 1 linear 23.7s forwards, fadeOut 0.3s 1 linear 26.7s forwards;
+          animation: fadeIn 0.3s 1 linear 23.7s forwards, fadeOut 0.3s 1 linear 26.7s forwards;
+}
+
+.L05Ename {
+  -webkit-animation: fadeIn 0.3s 1 linear 24s forwards, fadeOut 0.3s 1 linear 27s forwards;
+          animation: fadeIn 0.3s 1 linear 24s forwards, fadeOut 0.3s 1 linear 27s forwards;
+}
+
 @-webkit-keyframes bgcolorof {
   0% {
     background-color: #ec6f09;
@@ -692,7 +752,7 @@ body, html {
     filter: initial;
   }
   100% {
-    filter: hue-rotate(-180deg) saturate(140%) brightness(250%) contrast(120%);
+    filter: hue-rotate(-176deg) saturate(150%) brightness(260%) contrast(120%);
   }
 }
 @keyframes filtero {
@@ -700,7 +760,7 @@ body, html {
     filter: initial;
   }
   100% {
-    filter: hue-rotate(-180deg) saturate(140%) brightness(250%) contrast(120%);
+    filter: hue-rotate(-176deg) saturate(150%) brightness(260%) contrast(120%);
   }
 }
 .Rrow01 {
@@ -722,6 +782,20 @@ body, html {
 }
 .Rrow03 .large {
   animation: bgcolorbo 0.1s linear 11.5s 1 forwards, bgcolorbo 0.1s linear 16.3s 1 reverse forwards;
+}
+
+.Rrow04 {
+  animation: bgcolorlof 0.1s linear 17s 1 forwards, bgcolorlof 0.1s linear 21.8s 1 reverse forwards;
+}
+.Rrow04 .large {
+  animation: bgcolorbo 0.1s linear 17s 1 forwards, bgcolorbo 0.1s linear 21.8s 1 reverse forwards;
+}
+
+.Rrow05 {
+  animation: bgcolorlof 0.1s linear 22.5s 1 forwards, bgcolorlof 0.1s linear 27.3s 1 reverse forwards;
+}
+.Rrow05 .large {
+  animation: bgcolorbo 0.1s linear 22.5s 1 forwards, bgcolorbo 0.1s linear 27.3s 1 reverse forwards;
 }
 
 .R01no, .R01price {
@@ -748,6 +822,22 @@ body, html {
   animation: colorbo 0.1s linear 11.5s 1 forwards, colorbo 0.1s linear 16.3s 1 reverse forwards;
 }
 
+.R04no, .R04price {
+  animation: colorfo 0.1s linear 17s 1 forwards, colorfo 0.1s linear 21.8s 1 reverse forwards;
+}
+
+.R04moneysign {
+  animation: colorbo 0.1s linear 17s 1 forwards, colorbo 0.1s linear 21.8s 1 reverse forwards;
+}
+
+.R05no, .R05price {
+  animation: colorfo 0.1s linear 22.5s 1 forwards, colorfo 0.1s linear 27.3s 1 reverse forwards;
+}
+
+.R05moneysign {
+  animation: colorbo 0.1s linear 22.5s 1 forwards, colorbo 0.1s linear 27.3s 1 reverse forwards;
+}
+
 .R01Cname, .R01Ename {
   animation: filtero 0.05s linear 0.5s 1 forwards, filtero 0.05s linear 5.3s 1 reverse forwards;
 }
@@ -758,4 +848,12 @@ body, html {
 
 .R03Cname, .R03Ename {
   animation: filtero 0.05s linear 11.5s 1 forwards, filtero 0.05s linear 16.3s 1 reverse forwards;
+}
+
+.R04Cname, .R04Ename {
+  animation: filtero 0.05s linear 17s 1 forwards, filtero 0.05s linear 21.8s 1 reverse forwards;
+}
+
+.R05Cname, .R05Ename {
+  animation: filtero 0.05s linear 22.5s 1 forwards, filtero 0.05s linear 27.3s 1 reverse forwards;
 }
